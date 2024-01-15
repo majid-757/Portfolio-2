@@ -1,6 +1,6 @@
 import Nav from "./components/Nav"
 import Banner from "./components/Banner"
-
+import About from "./components/About"
 
 
 const App = () => {
@@ -8,6 +8,7 @@ const App = () => {
     <div className="bg-slate-900">
       <Nav />
       <Banner />
+      <About />
     </div>
   )
 }
