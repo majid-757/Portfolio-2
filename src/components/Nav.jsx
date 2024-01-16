@@ -3,6 +3,8 @@ import { Link } from "react-scroll";
 import { FaTimes } from "react-icons/fa";
 import { CiMenuFries } from "react-icons/ci";
 
+import img from "../assets/4.png";
+
 const Nav = () => {
   const [click, setClick] = useState(false);
 
@@ -45,7 +47,12 @@ const Nav = () => {
     <nav>
       <div className="h-10vh flex justify-between z-50 text-white lg:py-5 px-20 py-4 border-b border-slate-800">
         <div className="flex items-center flex-1">
-          <span className="text-3x1 font-bold">Logo</span>
+          <img
+            src={img}
+            width={200}
+            height={100}
+            className="rounded-full border-2 p-1 border-fuchsia-500 img-glow"
+          />
         </div>
         <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden">
           <div className="flex-10">
