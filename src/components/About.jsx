@@ -1,5 +1,4 @@
-// import { AiFillGithub } from "react-icons/ai";
-// import { FaLinkedinIn, FaInstagram, FaTelegram } from "react-icons/fa";
+
 
 import img from "../assets/62511773.jpg";
 
